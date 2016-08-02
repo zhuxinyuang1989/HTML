@@ -1,0 +1,28 @@
+@charset"gb2312";
+/*header*/
+/*导航头部CSS样式 开始*/
+#header {width: 100%;height: 70px;background-color: #333;}
+.topNav {margin: 0 auto;}
+.topNav,.ul-left {width: 1190px;height: 70px;}
+.ul-left li {float: left;}
+.ul-left li a {padding: 0 30px;font-size: 18px;line-height: 70px;}
+a:link,a:visited {color: #ffffff;text-decoration: none;}
+a:active,a:hover,a:focus {color: #EA2F2F;}
+/*导航头部CSS样式 结束*/
+/*幻灯片头部样式*/
+#mainBg{background-color: #f4f4f4;padding-top: 22px;}/*全局背景颜色*/
+#wrap {width: 1190px;margin: 0 auto; }
+/*幻灯片头部样式 */
+/*幻灯片样式 开始*/
+#play{width: 720px;height: 350px;padding: 22px 15px 15px 15px;background:#ffffff;}
+#playBox{width:720px;height: 350px;position:relative; overflow:hidden;}
+#divSmallBox{overflow:hidden;*display:inline;*zoom:1;width:10px;height:10px;margin:0 5px;border-radius:10px;}
+#playBox .oUlplay { width:99999px;position:absolute;left:0; top:0;}
+#playBox .oUlplay li{float:left;}
+#playBox .pre{width:50px; height:80px; background:url(../img/lunbo/icon.png) no-repeat;background-position: 5px -1365px; position:absolute; top:150px; left:0px; z-index:10;}
+#playBox .next{width:50px; height:80px; background:url(../img/lunbo/icon.png) no-repeat;background-position: 5px -1445px; position:absolute; top:150px; right:0px; z-index:10;}
+#playBox .smalltitle { height:10px; position:absolute; bottom:15px;right:0px;z-index:10;}
+#playBox .smalltitle ul{margin:0 auto;cursor:pointer;}
+#playBox .smalltitle ul li{ width:10px; height:10px; margin:0 5px; border-radius:10px; background:#ffffff; float:left; overflow:hidden;*display:inline;*zoom:1;}
+#playBox .smalltitle .thistitle{ background:#69aaec;}
+/*幻灯片样式 结束*/
